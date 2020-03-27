@@ -12,3 +12,8 @@ Adicionar estas configurações do Emmet no settings.json do Visual Studio Code:
 ## Componente Link do React Router DOM
 
 Para dar a sensação de SPA, ao invés de utilizar <a>, importar o componente <Link> do React Router DOM.
+
+## FORMATAÇÃO
+
+Para mostrar um valor em reais, utilizar a sintaxe: 
+_Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL'}).format(**valor a ser formatado**)_

@@ -52,4 +52,5 @@
 
 .register-container .content form .input-group input + input { /* adicionando uma estilização pro segundo input */
     margin-left: 8px;
+    width: 80px;
 }
