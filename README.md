@@ -41,14 +41,16 @@ As ONGs são entidades privadas da sociedade civil cujo propósito é defender e
 
 ## Contribuição
 
-Contribuições são o que fazem a comunidade open source um lugar incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer será **muito apreciada**.
+Qualquer contribuição que você fizer será **muito apreciada**. Para isso, siga os passos a seguir:
 
 1. Faça um Fork do projeto
 2. Crie uma Branch para sua Feature (`git checkout -b feature/myFeature`)
 3. Adicione suas mudanças (`git add .`)
-4. Comite suas mudanças (`git commit -m 'sua mensagem`)
-5. Faça o push da Branch (`git push origin feature/myFeature`)
-6. Abra uma Pull Request
+4. Comite suas mudanças (`git commit -m 'sua mensagem'`)
+5. Faça o push da branch (`git push origin feature/myFeature`)
+6. Abra uma Pull Request e aguarde aprovação
+
+Se você não sabe o que é ou **como realizar um fork**, siga os passos [deste tutorial](http://gabsferreira.com/forkando-e-clonando-um-repositorio-no-github/).
 
 <!-- LICENSE -->
 
