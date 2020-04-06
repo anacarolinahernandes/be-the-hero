@@ -10,4 +10,4 @@ app.use(express.json()); // informa que o body da requisição terá o formato J
 app.use(routes);
 app.use(errors()); // impede que o erro 500 seja retornado quando houver problema no BODY
 
-app.listen(3333);
+module.exports = app;
