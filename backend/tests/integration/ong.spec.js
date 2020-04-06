@@ -13,16 +13,14 @@ describe('ONG', () => {
   });
 
   it('should be able to create a new ONG', async () => {
-    const res = await request(app)
-      .post('/ongs')
-      .send({
-        name: "APAD",
-        email: "contato@apad.com.br",
-        whatsapp: "47000000000",
-        city: "Rio do Sul",
-        uf: "SC"	
-      });
-    
+    const res = await request(app).post('/ongs').send({
+      name: 'APAD',
+      email: 'contato@apad.com.br',
+      whatsapp: '47000000000',
+      city: 'Rio do Sul',
+      uf: 'SC',
+    });
+
     expect(res.body).toHaveProperty('id');
     expect(res.body.id).toHaveLength(8);
   });
