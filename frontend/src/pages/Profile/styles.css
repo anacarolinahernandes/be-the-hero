@@ -1,92 +1,96 @@
 .profile-container {
-    width: 100%;
-    max-width: 1180px;
-    padding: 0 30px;
-    margin: 32px auto;
+  width: 100%;
+  max-width: 1180px;
+  padding: 0 30px;
+  margin: 32px auto;
 }
 
 .profile-container header {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .profile-container header img {
-    height: 64px;
+  height: 64px;
 }
 
 .profile-container header span {
-    font-size: 20px;
-    margin-left: 24px;
+  font-size: 20px;
+  margin-left: 24px;
 }
 
 .profile-container header a {
-    width: 260px;
-    margin-left: auto; /* Para jogar o elemento para a direita */
-    margin-top: 0; /* Resetando a margem do global */
+  width: 260px;
+  margin-left: auto; /* Para jogar o elemento para a direita */
+  margin-top: 0; /* Resetando a margem do global */
 }
 
 .profile-container header button {
-    height: 60px;
-    width: 60px;
-    border-radius: 4px;
-    border: 1px solid #DCDCE6;
-    background: transparent;
-    margin-left: 16px;
-    transition: border-color 0.2s;
+  height: 60px;
+  width: 60px;
+  border-radius: 4px;
+  border: 1px solid #dcdce6;
+  background: transparent;
+  margin-left: 16px;
+  transition: border-color 0.2s;
 }
 
 .profile-container header button:hover {
-    border-color: #999999;
+  border-color: #999999;
 }
 
 .profile-container h1 {
-    margin: 80px 0 24px
+  margin: 80px 0 24px;
 }
 
 .profile-container ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* informa que serão 2 colunas com 1 unidade flexível */
-    grid-gap: 24px; /* distanciamento entre os grids */
-    list-style: none; /* remove a bolinha da lista */
+  display: grid;
+  grid-template-columns: repeat(
+    2,
+    1fr
+  ); /* informa que serão 2 colunas com 1 unidade flexível */
+  grid-gap: 24px; /* distanciamento entre os grids */
+  list-style: none; /* remove a bolinha da lista */
 }
 
 .profile-container ul li {
-    background: #FFFFFF;
-    padding: 24px;
-    border-radius: 8px;
-    position: relative
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  position: relative;
 }
 
 .profile-container ul li button {
-    position: absolute;
-    top: 24px;
-    right: 24px;
-    border: 0;
-    background-color: transparent;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  border: 0;
+  background-color: transparent;
 }
 
 .profile-container ul li button:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 .profile-container ul li strong {
-    display: block;
-    margin-bottom: 16px;
-    color: #41414D
+  display: block;
+  margin-bottom: 16px;
+  color: #41414d;
 }
 
-.profile-container ul li p + strong { /* para ignorar a primeira posição */
-    margin-top: 32px
+.profile-container ul li p + strong {
+  /* para ignorar a primeira posição */
+  margin-top: 32px;
 }
 
 .profile-container ul li p {
-    color: #737380;
-    line-height: 21px;
-    font-size: 16px
+  color: #737380;
+  line-height: 21px;
+  font-size: 16px;
 }
 
 .profile-container p {
-    font-size: 18px;
-    color: #737380;
-    line-height: 32px;
+  font-size: 18px;
+  color: #737380;
+  line-height: 32px;
 }

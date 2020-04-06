@@ -1,0 +1,23 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "plugins": ["react", "jsx-a11y", "import"],
+  "extends": "airbnb",
+  "rules": {
+    "react/jsx-filename-extension": [
+      2,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "react/jsx-one-expression-per-line": 0,
+    "global-require": 0,
+    "no-alert": 0,
+    "import/prefer-default-export": 0,
+    "import/export": 0,
+    "no-unused-expressions": [2, { "allowTaggedTemplates": true }]
+  }
+}
