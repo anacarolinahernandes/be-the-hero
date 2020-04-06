@@ -8,7 +8,7 @@
 <!-- PROJECT LOGO -->
 
 <h4 align="center">
-<img src="./img/logo.png" width="250px" /><br>
+<img src="./mobile/src/assets/logo@2x.png" width="250px" /><br>
  <b>Seja um herói!</b>
 </h4>
 <p align="center">
